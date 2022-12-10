@@ -1,0 +1,23 @@
+body {
+    font-family: Verdana, sans-serif;
+}
+button {
+    font-size: xx-large;
+    margin: 16px;
+}
+.row {
+    font-size: 0;
+}
+.box {
+    height: 25px;
+    width: 25px;
+    border: 1px solid #000;
+    display: inline-block;
+    font-size: 1rem;
+}
+.snake {
+    background: green;
+}
+.food {
+    background: orange;
+}
