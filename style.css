@@ -1,9 +1,15 @@
 body {
     font-family: Verdana, sans-serif;
 }
-button {
+#controls {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+#controls button {
+    width: 200px;
     font-size: xx-large;
-    margin: 16px;
+    margin: 16px auto;
 }
 .row {
     font-size: 0;
